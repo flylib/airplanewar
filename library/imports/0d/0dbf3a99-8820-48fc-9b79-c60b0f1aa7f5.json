@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "air_start.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "background": {
+      "__uuid__": "2be63597-9704-4fd2-b122-1a79396053a8"
+    },
+    "btn_finish": {
+      "__uuid__": "cc356ee2-4a77-431b-8c04-26a89d855a8e"
+    },
+    "game_loading1": {
+      "__uuid__": "5709f127-63ff-4df5-b094-92319872da56"
+    },
+    "game_loading2": {
+      "__uuid__": "2337c4e9-c90c-44bc-9113-dbe798d26fe4"
+    },
+    "game_loading3": {
+      "__uuid__": "a00aef35-c776-421e-884e-1c47a9a1dc8f"
+    },
+    "game_loading4": {
+      "__uuid__": "c559766c-2d2b-408e-8b2d-2fcbe73d4466"
+    },
+    "gameover": {
+      "__uuid__": "d288e3f6-5971-4e47-bffd-1bda947c2896"
+    },
+    "shoot_copyright": {
+      "__uuid__": "1f7c702c-b52c-4709-905b-2e342ecf916a"
+    }
+  }
+}

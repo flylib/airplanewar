@@ -1,0 +1,424 @@
+2019-11-18T06:35:27.646Z - normal: Load ~/.CocosCreator/settings.json
+2019-11-18T06:35:28.915Z - normal: Initializing Asset Database
+2019-11-18T06:35:28.947Z - normal: checking language setting...
+2019-11-18T06:35:28.947Z - normal: Language: zh
+2019-11-18T06:35:31.375Z - success: preview server running at http://localhost:7456
+2019-11-18T06:35:31.379Z - success: protocol editor-framework registered
+2019-11-18T06:35:31.379Z - success: protocol app registered
+2019-11-18T06:35:31.379Z - success: protocol theme registered
+2019-11-18T06:35:31.379Z - success: protocol packages registered
+2019-11-18T06:35:31.379Z - success: protocol uuid registerred
+2019-11-18T06:35:31.379Z - success: protocol db registerred
+2019-11-18T06:35:31.379Z - success: protocol thumbnail registerred
+2019-11-18T06:35:31.379Z - success: protocol unpack registerred
+2019-11-18T06:35:31.379Z - success: protocol disable-commonjs registerred
+2019-11-18T06:35:31.556Z - normal: connected!
+2019-11-18T06:35:31.557Z - normal: Check project E:\cocosDir\cocosEngineClient\airPlaneWar
+2019-11-18T06:35:31.558Z - normal: Initializing project E:\cocosDir\cocosEngineClient\airPlaneWar
+2019-11-18T06:35:32.786Z - normal: Initializing Cocos2d
+2019-11-18T06:35:35.010Z - normal: Initializing engine extends
+2019-11-18T06:35:35.436Z - success: asset-db-debugger loaded
+2019-11-18T06:35:35.440Z - success: code-editor loaded
+2019-11-18T06:35:35.445Z - success: color-picker loaded
+2019-11-18T06:35:35.614Z - success: fb-audience-network loaded
+2019-11-18T06:35:35.679Z - success: fb-live-stream loaded
+2019-11-18T06:35:35.694Z - success: google-play-instant loaded
+2019-11-18T06:35:35.745Z - success: huawei-runtime loaded
+2019-11-18T06:35:35.749Z - success: jsb-adapter loaded
+2019-11-18T06:35:35.761Z - success: oppo-runtime loaded
+2019-11-18T06:35:35.797Z - success: package-manager loaded
+2019-11-18T06:35:36.227Z - success: qqplay-adapter loaded
+2019-11-18T06:35:36.233Z - success: runtime-dev-tools loaded
+2019-11-18T06:35:36.272Z - success: sdkbox loaded
+2019-11-18T06:35:36.309Z - success: tester loaded
+2019-11-18T06:35:36.369Z - success: ui-grid loaded
+2019-11-18T06:35:36.389Z - success: ui-kit-preview-extra loaded
+2019-11-18T06:35:36.440Z - success: ui-kit-preview loaded
+2019-11-18T06:35:36.442Z - success: ui-kit loaded
+2019-11-18T06:35:36.454Z - success: ui-tree loaded
+2019-11-18T06:35:36.473Z - success: vivo-runtime loaded
+2019-11-18T06:35:36.473Z - success: weapp-adapter loaded
+2019-11-18T06:35:36.537Z - success: assets loaded
+2019-11-18T06:35:36.541Z - success: builder loaded
+2019-11-18T06:35:37.154Z - success: cocos-services loaded
+2019-11-18T06:35:37.170Z - success: console loaded
+2019-11-18T06:35:37.205Z - success: fb-instant-games loaded
+2019-11-18T06:35:37.205Z - success: google-instant-games loaded
+2019-11-18T06:35:37.209Z - success: hierarchy loaded
+2019-11-18T06:35:37.214Z - success: inspector loaded
+2019-11-18T06:35:37.214Z - success: keystore loaded
+2019-11-18T06:35:37.218Z - success: node-library loaded
+2019-11-18T06:35:37.218Z - success: package-asset loaded
+2019-11-18T06:35:37.222Z - success: preferences loaded
+2019-11-18T06:35:37.222Z - success: project-exporter loaded
+2019-11-18T06:35:37.226Z - success: project-importer loaded
+2019-11-18T06:35:37.226Z - success: project-settings loaded
+2019-11-18T06:35:37.230Z - success: scene loaded
+2019-11-18T06:35:37.234Z - success: simulator-debugger loaded
+2019-11-18T06:35:37.234Z - success: sprite-editor loaded
+2019-11-18T06:35:37.246Z - success: store loaded
+2019-11-18T06:35:37.250Z - success: timeline loaded
+2019-11-18T06:35:43.032Z - info: Cocos Services load base data!
+2019-11-18T06:35:43.355Z - normal: Loading packages
+2019-11-18T06:35:43.363Z - normal: Watching packages
+2019-11-18T06:35:44.148Z - normal: Run Application
+2019-11-18T06:35:54.136Z - warn: Please change the definition of property 'audio_reStart' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_reStart: cc.Texture2D,
+Now it should be changed to:
+    audio_reStart: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T06:35:54.137Z - warn: The default value of NewClass.audio_reStart must be an empty string. (changed since 1.8)
+2019-11-18T06:35:54.139Z - warn: Please change the definition of property 'audio_blowup' in class 'Enemy'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_blowup: cc.Texture2D,
+Now it should be changed to:
+    audio_blowup: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T06:35:54.139Z - warn: The default value of Enemy.audio_blowup must be an empty string. (changed since 1.8)
+2019-11-18T06:35:54.143Z - warn: Please change the definition of property 'audio_bullet' in class 'Hero'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_bullet: cc.Texture2D,
+Now it should be changed to:
+    audio_bullet: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T06:35:54.143Z - warn: The default value of Hero.audio_bullet must be an empty string. (changed since 1.8)
+2019-11-18T06:35:54.144Z - warn: Please change the definition of property 'audio_hero_blowup' in class 'Hero'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_hero_blowup: cc.Texture2D,
+Now it should be changed to:
+    audio_hero_blowup: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T06:35:54.144Z - warn: The default value of Hero.audio_hero_blowup must be an empty string. (changed since 1.8)
+2019-11-18T06:35:54.146Z - warn: Please change the definition of property 'audio_btn_pressed' in class 'Start'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_btn_pressed: cc.Texture2D,
+Now it should be changed to:
+    audio_btn_pressed: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T06:35:54.147Z - warn: The default value of Start.audio_btn_pressed must be an empty string. (changed since 1.8)
+2019-11-18T08:50:44.231Z - warn: Please change the definition of property 'audio_reStart' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_reStart: cc.Texture2D,
+Now it should be changed to:
+    audio_reStart: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:44.237Z - warn: The default value of NewClass.audio_reStart must be an empty string. (changed since 1.8)
+2019-11-18T08:50:44.238Z - warn: Please change the definition of property 'audio_blowup' in class 'Enemy'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_blowup: cc.Texture2D,
+Now it should be changed to:
+    audio_blowup: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:44.238Z - warn: The default value of Enemy.audio_blowup must be an empty string. (changed since 1.8)
+2019-11-18T08:50:44.246Z - warn: Please change the definition of property 'audio_bullet' in class 'Hero'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_bullet: cc.Texture2D,
+Now it should be changed to:
+    audio_bullet: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:44.247Z - warn: The default value of Hero.audio_bullet must be an empty string. (changed since 1.8)
+2019-11-18T08:50:44.247Z - warn: Please change the definition of property 'audio_hero_blowup' in class 'Hero'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_hero_blowup: cc.Texture2D,
+Now it should be changed to:
+    audio_hero_blowup: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:44.247Z - warn: The default value of Hero.audio_hero_blowup must be an empty string. (changed since 1.8)
+2019-11-18T08:50:44.288Z - warn: Please change the definition of property 'audio_btn_pressed' in class 'Start'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_btn_pressed: cc.Texture2D,
+Now it should be changed to:
+    audio_btn_pressed: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:44.288Z - warn: The default value of Start.audio_btn_pressed must be an empty string. (changed since 1.8)
+2019-11-18T08:50:47.733Z - warn: Please change the definition of property 'audio_reStart' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_reStart: cc.Texture2D,
+Now it should be changed to:
+    audio_reStart: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:47.733Z - warn: The default value of NewClass.audio_reStart must be an empty string. (changed since 1.8)
+2019-11-18T08:50:47.734Z - warn: Please change the definition of property 'audio_blowup' in class 'Enemy'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_blowup: cc.Texture2D,
+Now it should be changed to:
+    audio_blowup: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:47.734Z - warn: The default value of Enemy.audio_blowup must be an empty string. (changed since 1.8)
+2019-11-18T08:50:47.735Z - warn: Please change the definition of property 'audio_bullet' in class 'Hero'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_bullet: cc.Texture2D,
+Now it should be changed to:
+    audio_bullet: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:47.735Z - warn: The default value of Hero.audio_bullet must be an empty string. (changed since 1.8)
+2019-11-18T08:50:47.735Z - warn: Please change the definition of property 'audio_hero_blowup' in class 'Hero'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_hero_blowup: cc.Texture2D,
+Now it should be changed to:
+    audio_hero_blowup: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:47.735Z - warn: The default value of Hero.audio_hero_blowup must be an empty string. (changed since 1.8)
+2019-11-18T08:50:47.736Z - warn: Please change the definition of property 'audio_btn_pressed' in class 'Start'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_btn_pressed: cc.Texture2D,
+Now it should be changed to:
+    audio_btn_pressed: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:47.736Z - warn: The default value of Start.audio_btn_pressed must be an empty string. (changed since 1.8)
+2019-11-18T08:50:52.540Z - warn: Please change the definition of property 'audio_reStart' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_reStart: cc.Texture2D,
+Now it should be changed to:
+    audio_reStart: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:52.540Z - warn: The default value of NewClass.audio_reStart must be an empty string. (changed since 1.8)
+2019-11-18T08:50:52.540Z - warn: Please change the definition of property 'audio_blowup' in class 'Enemy'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_blowup: cc.Texture2D,
+Now it should be changed to:
+    audio_blowup: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:52.540Z - warn: The default value of Enemy.audio_blowup must be an empty string. (changed since 1.8)
+2019-11-18T08:50:52.542Z - warn: Please change the definition of property 'audio_bullet' in class 'Hero'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_bullet: cc.Texture2D,
+Now it should be changed to:
+    audio_bullet: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:52.542Z - warn: The default value of Hero.audio_bullet must be an empty string. (changed since 1.8)
+2019-11-18T08:50:52.543Z - warn: Please change the definition of property 'audio_hero_blowup' in class 'Hero'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_hero_blowup: cc.Texture2D,
+Now it should be changed to:
+    audio_hero_blowup: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:52.543Z - warn: The default value of Hero.audio_hero_blowup must be an empty string. (changed since 1.8)
+2019-11-18T08:50:52.543Z - warn: Please change the definition of property 'audio_btn_pressed' in class 'Start'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_btn_pressed: cc.Texture2D,
+Now it should be changed to:
+    audio_btn_pressed: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:50:52.543Z - warn: The default value of Start.audio_btn_pressed must be an empty string. (changed since 1.8)
+2019-11-18T08:53:25.311Z - warn: Please change the definition of property 'audio_reStart' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_reStart: cc.Texture2D,
+Now it should be changed to:
+    audio_reStart: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:53:25.312Z - warn: The default value of NewClass.audio_reStart must be an empty string. (changed since 1.8)
+2019-11-18T08:53:25.312Z - warn: Please change the definition of property 'audio_blowup' in class 'Enemy'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_blowup: cc.Texture2D,
+Now it should be changed to:
+    audio_blowup: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:53:25.313Z - warn: The default value of Enemy.audio_blowup must be an empty string. (changed since 1.8)
+2019-11-18T08:53:25.314Z - warn: Please change the definition of property 'audio_bullet' in class 'Hero'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_bullet: cc.Texture2D,
+Now it should be changed to:
+    audio_bullet: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:53:25.314Z - warn: The default value of Hero.audio_bullet must be an empty string. (changed since 1.8)
+2019-11-18T08:53:25.315Z - warn: Please change the definition of property 'audio_hero_blowup' in class 'Hero'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_hero_blowup: cc.Texture2D,
+Now it should be changed to:
+    audio_hero_blowup: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:53:25.315Z - warn: The default value of Hero.audio_hero_blowup must be an empty string. (changed since 1.8)
+2019-11-18T08:53:25.315Z - warn: Please change the definition of property 'audio_btn_pressed' in class 'Start'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_btn_pressed: cc.Texture2D,
+Now it should be changed to:
+    audio_btn_pressed: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T08:53:25.315Z - warn: The default value of Start.audio_btn_pressed must be an empty string. (changed since 1.8)
+2019-11-18T09:07:23.665Z - warn: Please change the definition of property 'audio_reStart' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_reStart: cc.Texture2D,
+Now it should be changed to:
+    audio_reStart: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T09:07:23.667Z - warn: The default value of NewClass.audio_reStart must be an empty string. (changed since 1.8)
+2019-11-18T09:07:23.667Z - warn: Please change the definition of property 'audio_blowup' in class 'Enemy'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_blowup: cc.Texture2D,
+Now it should be changed to:
+    audio_blowup: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T09:07:23.667Z - warn: The default value of Enemy.audio_blowup must be an empty string. (changed since 1.8)
+2019-11-18T09:07:23.668Z - warn: Please change the definition of property 'audio_bullet' in class 'Hero'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_bullet: cc.Texture2D,
+Now it should be changed to:
+    audio_bullet: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T09:07:23.668Z - warn: The default value of Hero.audio_bullet must be an empty string. (changed since 1.8)
+2019-11-18T09:07:23.668Z - warn: Please change the definition of property 'audio_hero_blowup' in class 'Hero'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_hero_blowup: cc.Texture2D,
+Now it should be changed to:
+    audio_hero_blowup: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T09:07:23.668Z - warn: The default value of Hero.audio_hero_blowup must be an empty string. (changed since 1.8)
+2019-11-18T09:07:23.668Z - warn: Please change the definition of property 'audio_btn_pressed' in class 'Start'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio_btn_pressed: cc.Texture2D,
+Now it should be changed to:
+    audio_btn_pressed: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-18T09:07:23.669Z - warn: The default value of Start.audio_btn_pressed must be an empty string. (changed since 1.8)
