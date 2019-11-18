@@ -3,5 +3,5 @@
 
 # 演示
 <p>
-	<img src="https://github.com/Quantumoffices/airplanewar/display.gif?raw=true" width="250" height="443" />
+	<img src="https://github.com/Quantumoffices/airplanewar/blob/master/display.gif?raw=true" width="250" height="443" />
 </p>
